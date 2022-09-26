@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>My Website</title>
+
+  <!-- Bootstrep Css -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+       <!-- Header -->
+    <div class="header">
+      <div> 
+       	    <!-- Logo -->
+       	    <h1 class="logo">
+       	    <a href="index.html">My Website</a>
+             </h1>
+
+       	    <!-- Nav -->
+       	    <ul class="nav">
+       	    	<li><a href="index.html">Home</a></li>
+       	    	<li><a href="contact.html">Contact</a></li>
+              <li><a href="Calculator.html">Calculator</a></li>
+              
+       	    </ul>  
+
+      </div>
+
+   </div>
+
+       <!-- Body -->
+        <div class="container py-5"> 
+         <!--Logo  -->
+         <h1>Calculator</h1>
+
+         <input type="text" id="firstnum" class="form-control" mb-3 placeholder="Enter First Number"><br>
+         <input type="text" id="secondnum" class="form-control" mb-3 placeholder="Enter Second Number">
+
+         <button id="add" class="btn btn-warning">+</button>
+         <button id="sub" class="btn btn-success">-</button>
+         <button id="mul" class="btn btn-danger">*</button>
+
+         <h3 class="pt-5 pb-2">Result</h3>
+         <ul id="list" class="list-group">
+          
+         </ul>
+       </div>
+    
+
+       <!-- Footer -->
+       <div class="footer">
+       	    <div class="container">
+       	    	<p>Copyright &copy; 2021. All rights reserved.</p>
+       	    </div>
+       </div>
+
+       <script src="js/main.js"></script>
+
+</body>
+</html>
